@@ -1,0 +1,63 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+p {
+  font-size: 1.9rem;
+}
+
+/** Google map **/
+
+#educacity-map {
+  height: 100%;
+  width: 100%;
+}
+
+div[role="main"] {
+  height: 100%;
+  position: relative;
+  background-color: #F4F4F4;
+}
+
+/* bootstrap overwrite */
+
+@media (max-width: 1500px) {
+  .container {
+    max-width: 100%;
+    padding: 0px;
+    height: 100%;
+  }
+}
+
+.modal-title {
+  color: #FF4E00 !important;
+}
+
+.modal-body p {
+  font-size: 1.9rem;
+}
+
+.followMe {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  z-index: 999;
+  border: solid 2px #00AACC;
+  border-radius: 4px;
+  background-color: #E3E3E3;
+}
+
+.active {
+  background-color: #B2F2FF;
+}
+
+.thumbnail {
+  border: none;
+  background-color: inherit;
+}
